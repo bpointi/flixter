@@ -22,6 +22,9 @@
 		B57884C627016C8100B45F32 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57884C527016C8100B45F32 /* MoviesViewController.swift */; };
 		B57884C8270185AF00B45F32 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57884C7270185AE00B45F32 /* MovieCell.swift */; };
 		B57884CB270A733400B45F32 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = B57884CA270A733400B45F32 /* AlamofireImage */; };
+		B57884CD270A9B1000B45F32 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57884CC270A9B1000B45F32 /* MovieDetailsViewController.swift */; };
+		B57884CF270AA85800B45F32 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57884CE270AA85700B45F32 /* MovieGridViewController.swift */; };
+		B57884D1270AAD5A00B45F32 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57884D0270AAD5A00B45F32 /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		B57884C427016C8000B45F32 /* Tipster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tipster-Bridging-Header.h"; sourceTree = "<group>"; };
 		B57884C527016C8100B45F32 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		B57884C7270185AE00B45F32 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		B57884CC270A9B1000B45F32 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		B57884CE270AA85700B45F32 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		B57884D0270AAD5A00B45F32 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		C0A052B265BEB1CF2FD99AC9 /* Pods-Tipster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipster.debug.xcconfig"; path = "Target Support Files/Pods-Tipster/Pods-Tipster.debug.xcconfig"; sourceTree = "<group>"; };
 		CDA45C89CA96029806752B6C /* Pods-Tipster-TipsterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipster-TipsterUITests.release.xcconfig"; path = "Target Support Files/Pods-Tipster-TipsterUITests/Pods-Tipster-TipsterUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,7 +129,6 @@
 				10EBF945D9296A67AD9AC3E8 /* Pods-TipsterTests.debug.xcconfig */,
 				844E0F01827E3D512553A08C /* Pods-TipsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -166,6 +171,9 @@
 				B57884A02701426D00B45F32 /* Info.plist */,
 				B57884A12701426D00B45F32 /* main.m */,
 				B57884C427016C8000B45F32 /* Tipster-Bridging-Header.h */,
+				B57884CC270A9B1000B45F32 /* MovieDetailsViewController.swift */,
+				B57884CE270AA85700B45F32 /* MovieGridViewController.swift */,
+				B57884D0270AAD5A00B45F32 /* MovieGridCell.swift */,
 			);
 			path = Tipster;
 			sourceTree = "<group>";
@@ -435,8 +443,11 @@
 				B57884972701426B00B45F32 /* ViewController.m in Sources */,
 				B57884C627016C8100B45F32 /* MoviesViewController.swift in Sources */,
 				B57884C8270185AF00B45F32 /* MovieCell.swift in Sources */,
+				B57884CD270A9B1000B45F32 /* MovieDetailsViewController.swift in Sources */,
 				B57884912701426B00B45F32 /* AppDelegate.m in Sources */,
+				B57884CF270AA85800B45F32 /* MovieGridViewController.swift in Sources */,
 				B57884A22701426D00B45F32 /* main.m in Sources */,
+				B57884D1270AAD5A00B45F32 /* MovieGridCell.swift in Sources */,
 				B57884942701426B00B45F32 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
